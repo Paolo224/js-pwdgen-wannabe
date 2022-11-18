@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: beige;
+    flex-direction: column;
+}
+
+main img{
+    border-radius: 2rem;
+    margin-bottom: 4rem;
+}
+
+.dati-utente-custom{
+    background-color: #fbd601;
+    border: 4px solid rgb(24, 13, 13);
+    padding: .5rem 2rem;
+    border-radius: 33rem;
+    width: 50%;
+    text-align: center;
+    font-size: 3rem
+}
