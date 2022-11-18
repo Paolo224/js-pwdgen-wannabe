@@ -6,4 +6,4 @@ let dati_completi = name + " " + last_name + " " + color;
 
 console.log(dati_completi)
 
-document.getElementById('dati-utente').innerHTML = dati_completi 
+document.getElementById('dati-utente').innerHTML = dati_completi + " 22" 
